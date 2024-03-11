@@ -3,16 +3,16 @@
     struct Stats
     {
         public int attack;
-        public int defense;
         public int magicModifier;
         public int magicResistance;
+        public int defense;
 
-        public Stats(int attack, int defense, int magicModifier, int magicResistance)
+        public Stats(int attack, int magicModifier, int magicResistance, int defense)
         {
             this.attack = attack;
-            this.defense = defense;
             this.magicModifier = magicModifier;
             this.magicResistance = magicResistance;
+            this.defense = defense;
         }
     }
 }
